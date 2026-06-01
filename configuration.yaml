@@ -24,11 +24,11 @@ jobs:
       name: ProspexAI, Inc.
       link: "#"
     product:
-      name: ""
-      link: "#"
+      name: ProspexCare
+      link: "https://www.linkedin.com/company/prospex-care"
     description:
       - Contributed to multiple real-world full stack projects.
-      - Managed database schema and backend development using supabase.
+      - Managed database schema and backend development.
       - Implemented UI/UX designs into a user-friendly, accessible and responsive pages.
       - Handled deployment of applications into production.
     from: "Mar. 2025"
