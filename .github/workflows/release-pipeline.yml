@@ -31,4 +31,4 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           name: "Resume — ${{ env.DATE }}"
-          files: main.pdf
+          files: resume.pdf
