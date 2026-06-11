@@ -19,7 +19,7 @@ This repository contains my personal resume built using Typst, based on the [Van
 2. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Patrix726/resume.git
+   git clone https://github.com/nebilra/resume.git
    cd resume
    ```
 
