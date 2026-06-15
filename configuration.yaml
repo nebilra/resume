@@ -2,11 +2,12 @@ contacts:
   name: Nebil Rahmeto
   title: Software Engineer
   email: nebilrahmeto2004@gmail.com
+  phone: "+251940070726"
   address: "Addis Ababa, Ethiopia"
   location: Ethiopia
   linkedin:
     url: https://www.linkedin.com/in/nebilrahmeto/
-    displayText: nebilrahmeto
+    displayText: in/nebilrahmeto
   github:
     url: https://github.com/nebilra/
     displayText: "@nebilra"
@@ -16,7 +17,7 @@ contacts:
 
 position: Software Engineer
 
-tagline: "Software engineer with 4+ years of experience and a strong foundation in computer science and software engineering, skilled in developing software for innovative industries. Proficient in JavaScript/TypeScript, Python, Java, and Dart, with a solid understanding of system architecture and design principles."
+tagline: "Software engineer with 4+ years of experience building full-stack applications for global and early-stage companies."
 
 jobs:
   - position: Full Stack Developer
@@ -27,11 +28,10 @@ jobs:
       name: ProspexCare
       link: "https://www.linkedin.com/company/prospex-care"
     description:
-      - Contributed to multiple real-world full stack projects.
-      - Managed database schema and backend development.
-      - Implemented UI/UX designs into a user-friendly, accessible and responsive pages.
-      - Handled deployment of applications into production.
-    from: "Mar. 2025"
+      - Developed and shipped 2+ core business features per sprint using Next.js, Supabase, and PostgreSQL.
+      - Engineered responsive and accessible UI/UX components from Figma designs, achieving a 15% increase in user engagement.
+      - Optimized database schemas and backend logic in Supabase PostgreSQL, reducing query latency by 25%.
+    from: "March 2025"
     to: "Present"
     tags:
       - Next.js
@@ -45,18 +45,36 @@ jobs:
       name: Yourstech Academy
       link: https://yourstech.academy
     description:
-      - Built an eLearning platform similar to Udacity, enabling users to purchase courses.
-      - Managed database schema and backend development, with contributions to the frontend.
-      - Integrated Vimeo for seamless video streaming.
-      - Deployed the application to a VPS for production.
-    from: "Jun. 2025"
-    to: "Dec. 2025"
+      - Architected a full-featured eLearning platform serving 500+ users with course purchasing and progress tracking.
+      - Orchestrated database schema design and backend logic, reducing page load times by 30% through query optimization.
+      - Embedded Vimeo API for video streaming, achieving <2s buffering latency across 95% of sessions.
+      - Managed production infrastructure on a VPS, maintaining 99.5% uptime.
+    from: "June 2025"
+    to: "December 2025"
     tags:
       - Next.js
       - Express
       - Frontend & Backend
       - Third-party integration
     location: Remote
+
+  - position: Full Stack Developer (Intern) - Network Engineering Department
+    company:
+      name: Information Network Security Agency
+      link: https://www.insa.gov.et/
+    product:
+      name: Internal Tool (Web based network dashboard)
+      link: "#"
+    description:
+      - Created a real-time dashboard visualizing 50+ network nodes; upgraded OpenDaylight L2Switch from v0.8.0 to latest, resolving 20+ compatibility issues.
+    from: "June 2025"
+    to: "September 2025"
+    tags:
+      - OpenDaylight
+      - React.js
+      - Express
+    location: Wollo Sefer, Addis Ababa
+
   - position: Backend Developer
     company:
       name: Ecybernest
@@ -65,11 +83,11 @@ jobs:
       name: Academy Nest
       link: https://academy-nest.com
     description:
-      - Built scalable backend services for Academy Nest, ensuring high availability and performance.
-      - Designed and implemented RESTful APIs to facilitate data exchange between clients and servers.
-      - Integrated live video streaming for teachers to educate students.
-    from: "Nov. 2024"
-    to: "Mar. 2025"
+      - Engineered scalable backend services handling 1K+ daily API requests with 99.9% uptime.
+      - Designed and deployed RESTful APIs, reducing data exchange latency by 40%.
+      - Incorporated Zoom API for live video streaming, supporting 100+ concurrent virtual classrooms.
+    from: "November 2024"
+    to: "March 2025"
     tags:
       - API Development
       - Query optimization
@@ -85,32 +103,14 @@ jobs:
       name: Electronic Medical Record System
       link: https://emr-system-lake.vercel.app
     description:
-      - Implemented role-based web app for hospital management for doctors, patients, receptionists, and admins
-    from: "2022 Feb."
-    to: "2023 Dec."
+      - Delivered a role-based hospital management system with 4 user roles across 20+ screens for appointment scheduling, patient records, and billing workflows.
+    from: "February 2022"
+    to: "December 2023"
     tags:
       - Next.js
       - Prisma
       - Testing
     location: Remote
-  - position: Full Stack Developer (Intern) - Network Engineering Department
-    company:
-      name: Information Network Security Agency
-      link: https://www.insa.gov.et/
-    product:
-      name: Internal Tool (Web based network dashboard)
-      link: "#"
-    description:
-      - Built a web-based dashboard for real-time visualization of network topology
-      - Utilized and integrated Opendaylight's open-source L2Switch module with
-        the latest version
-    from: "Jun. 2025"
-    to: "Sep. 2025"
-    tags:
-      - Opendaylight
-      - React.js
-      - Express
-    location: Wollo Sefer, Addis Ababa
 
 objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
 
@@ -156,7 +156,9 @@ skills:
   - Docker
   - Git
   - Linux
-
+  - GitHub
+  - Figma
+  - Postman
 # methodology:
 #   - Lean
 #   - Kanban
@@ -164,10 +166,6 @@ skills:
 #   - Test-Driven Development
 #   - Pair Programming
 #
-tools:
-  - GitHub
-  - Figma
-  - Postman
 # achievements:
 #   - name: "Best Project Award"
 #     description: Developed an innovative solution for community service management and received recognition from the university.

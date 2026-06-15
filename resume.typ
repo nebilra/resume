@@ -9,7 +9,8 @@
     (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
-    (name: "location", link: "#", display: configuration.contacts.address)
+    (name: "location", link: "#", display: configuration.contacts.address),
+    (name: "phone", link: "tel:"+ configuration.contacts.phone, display: configuration.contacts.phone)
   ),
   tagline: (configuration.tagline),
   [
@@ -28,24 +29,12 @@
     
   ],
   [
-    == Objective
-
-    #configuration.objective
-
-
     == Education
 
     #for edu in configuration.education [
-      === #if edu.place.link != "" [
-        #link(edu.place.link)[#edu.place.name]\
-      ] else [
-        #edu.place.name\
-      ]
-
-      #edu.from - #edu.to #h(1fr) #edu.location
+      === #if edu.place.link != "" [#link(edu.place.link)[#edu.place.name]] else [#edu.place.name] #h(1fr) #edu.from --- #edu.to | #edu.location
 
       #edu.degree in #edu.major
-
     ]
 
     // == Technical Expertise
@@ -65,11 +54,6 @@
     //   • #method
     // ]
     //
-    == Tools
-    #for tool in configuration.tools [
-      • #tool
-    ]
-
     // == Achievements/Certifications
     //
     // #for achievement in configuration.achievements [

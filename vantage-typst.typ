@@ -131,10 +131,7 @@
 
   tagline
 
-  grid(
-    columns: (7fr, 4fr),
-    column-gutter: 2em,
-    leftSide,
-    rightSide,
-  )
+  leftSide
+
+  rightSide
 }
