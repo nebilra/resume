@@ -34,7 +34,7 @@
     #for edu in configuration.education [
       === #if edu.place.link != "" [#link(edu.place.link)[#edu.place.name]] else [#edu.place.name] #h(1fr) #edu.from --- #edu.to | #edu.location
 
-      #edu.degree in #edu.major
+      #edu.degree in #edu.major with *CGPA #edu.grade* — *#edu.honors*
     ]
 
     // == Technical Expertise
@@ -43,7 +43,7 @@
     //   #skill(expertise.name, expertise.level)
     // ]
 
-    == Skills/Exposure
+    == Skills
 
     #for skill in configuration.skills [
       • #skill

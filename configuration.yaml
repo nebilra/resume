@@ -36,7 +36,7 @@ jobs:
     tags:
       - Next.js
       - Supabase
-    location: Remote
+    location: Remote — Part-Time
   - position: Full Stack Developer
     company:
       name: Yourstech Academy
@@ -56,7 +56,7 @@ jobs:
       - Express
       - Frontend & Backend
       - Third-party integration
-    location: Remote
+    location: Remote — Contract
 
   - position: Full Stack Developer (Intern) - Network Engineering Department
     company:
@@ -94,7 +94,7 @@ jobs:
       - Zoom integration
       - Express.js
       - Socket.io
-    location: Remote
+    location: Remote — Contract
   - position: Full Stack Developer (Intern)
     company:
       name: EagleLion System Technology
@@ -104,13 +104,13 @@ jobs:
       link: https://emr-system-lake.vercel.app
     description:
       - Delivered a role-based hospital management system with 4 user roles across 20+ screens for appointment scheduling, patient records, and billing workflows.
-    from: "February 2022"
-    to: "December 2023"
+    from: "June 2024"
+    to: "September 2024"
     tags:
       - Next.js
       - Prisma
       - Testing
-    location: Remote
+    location: Remote — Full-Time
 
 objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
 
@@ -123,6 +123,8 @@ education:
     track: Software Engineering
     from: "2022"
     to: "2026"
+    grade: "3.96"
+    honors: "Summa Cum Laude"
     location: Adama, Ethiopia
 
 # technical_expertise:
